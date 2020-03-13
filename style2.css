@@ -17,11 +17,12 @@ canvas {
 }
 
 #title_container{
-  position: absolute;
-  top: 30px;
-  left: 30px;
+ position: absolute;
+  top: 50px;
+  left: 50%;
   width: 450px;
-  color: white;
+  transform: translate(-50%);
+  color: black; /*rgb(255,70,110);*/
 }
 
 #title{
@@ -37,11 +38,31 @@ canvas {
 #description{
   font-family: Abel;
   font-size: 16px;
+  color: black;
+}
+
+#work_container{
+ position: absolute;
+  top: 275px;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+  font-family: BentonSansCondensedBold;
+  font-size: 20px
+}
+
+img {
+  height: auto;
+  max-width: 500px;
+}
+
+th, td {
+  padding: 10px;
 }
 
 a {
   text-decoration:none;
-  color: white;
+  color: black; /*rgb(255,70,110);*/
 }
 
 a:hover, a:focus{
